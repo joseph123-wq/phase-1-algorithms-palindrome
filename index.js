@@ -1,16 +1,11 @@
 
   // Write your algorithm here
-  // Helper function to reverse a string
 function reverseString(word) {
   return word.split("").reverse().join("");
 }
 
-// Main function to check if a word is a palindrome
 function isPalindrome(word) {
-  // Reverse the input string
   const reversedWord = reverseString(word);
-
-  // Compare the reversed string to the input
   return word === reversedWord;
 }
   
